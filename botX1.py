@@ -9,10 +9,10 @@ from google.api_core.exceptions import InvalidArgument
 import keyboard
 
 while True:
-    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = ''
-    DIALOGFLOW_PROJECT_ID = ''
+    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = 'private_key.json'
+    DIALOGFLOW_PROJECT_ID = 'sweety-6d440'
     DIALOGFLOW_LANGUAGE_CODE = 'en'
-    SESSION_ID = ''
+    SESSION_ID = 'session_test'
 
     r = sr.Recognizer()
     engine = pt.init()
